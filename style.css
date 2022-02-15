@@ -1,0 +1,22 @@
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+body{
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+ul, li{
+    list-style: none;
+}
+.logo_header{
+    margin-top: 30px;
+    margin-left: 184px;
+}
+.wrapper{
+    display: flex;
+}
