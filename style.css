@@ -30,7 +30,7 @@ ul, li{
     text-decoration: none;
     color: #696871;
     font-family:'DM Sans', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
 }
 .nav__link:hover{
@@ -70,7 +70,7 @@ ul, li{
     margin-right: 77px;
 }
 .hero_title{
-    font-size: 80px;
+    font-size: 5rem;
     line-height: 77px;
     letter-spacing: -2.50105px;
     color: #19191B;
