@@ -257,7 +257,7 @@ ul, li{
     border: 1px solid black;
     text-align: center;
     background-color: #F8F8F8;
-    border-radius: 1px;
+    border-radius: 5px;
     margin-right: 18px;
 }
 .name__footer_card{
@@ -266,8 +266,8 @@ ul, li{
     text-align: center;
     letter-spacing: -0.562737px;
     color: #696871;
-    padding-top: 34px;
-    padding-bottom: 22px;
+    padding-top: 14px;
+    padding-bottom: 7px;
 }
 .title_footer{
     font-size: 60px;
@@ -275,9 +275,7 @@ ul, li{
     text-align: center;
     letter-spacing: -1.03448px;
     color: #1D293F;
-}
-.title_footer.second{
-}   
+}  
 
 .about_footer{
     font-size: 17px;
@@ -286,12 +284,70 @@ ul, li{
     letter-spacing: -0.531474px;
     color: #696871;
     font-family: 'Mulish', sans-serif;
-    padding: 28px 106px 36px 106px;
+    padding: 5px 106px 36px 106px;
+    width: 136px;
 }
 .first__footer_card.second{
     background-color: #FF7143;
     width: 376px;
     height: 473px;
+    position: relative;
+    bottom: 20px;
     
 }
-   
+.name__footer_card2{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 30px;
+}
+.title_footer2{
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    padding: 8px 92px 1px 83px;
+}
+.about_footer2{
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    padding: 0 126px 20px 119px;
+}
+.footer_month{
+    font-size: 28px;
+}
+.footer_card_btn1{
+    background-color:white ;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    width: 285px;
+    height: 60px;
+    padding: 19px 42px;
+    color: #5454D4;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    font-family: 'DM Sans', sans-serif;
+}
+.footer_card_btn2{
+    background: #9F3919;
+    border: none;
+    border-radius: 10px;
+    width: 305px;
+    height: 60px;
+    padding: 19px 34px 43px 37px;
+    color: white;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    font-family: 'DM Sans', sans-serif;
+}
