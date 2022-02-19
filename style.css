@@ -489,11 +489,12 @@ a {
     margin-right: 30px;
 }
 .customer__about {
-    display: flex;
-    justify-content: space-around;
+   display: flex; 
+}
+.customer__ava.act {
+    margin-left: 130px;
 }
 .customer_name {
-    padding-top: 20px;
     font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -501,7 +502,16 @@ a {
     line-height: 33px;
     text-transform: capitalize;
     color: #000000;
-    margin-bottom: 65px;
+    padding-left: 20px;
+}
+.customer__prof {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-align: left;
+    padding-left: 22px;
+    padding-bottom: 60px;
 }
 .customer_name span {
     font-family:'Raleway', sans-serif;
