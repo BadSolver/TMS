@@ -63,7 +63,6 @@ a {
 }
 .banner {
     background-image: url(./image/bcbanner.png);
-    background-repeat: none;
     height:1026px;
 }
 .wrapper {
