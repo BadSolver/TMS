@@ -197,3 +197,91 @@ a {
 .social_img1 {
     margin-right:170px ;
 }
+.tabs-block-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.container__tabs {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+#tabs {
+    display: flex;
+}
+.tab-btn {
+    width: 203px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+.tab-btn.sec {
+    border: none;
+}
+.tab-btn.thr {
+    border: none;
+}
+.tab-btn.active {
+}
+
+#contents {
+    width: 100%;
+    border: 1px solid #C6CBCD;
+}
+
+.content {
+    
+}
+.image_tabs{
+    margin-top: 42px;
+}
+.tabs__title {
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-left: 100px;
+    margin-right:30px ;
+    padding-top: 79px;
+
+}
+.tabs__content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 100px;
+    margin-right: 30px;
+    padding-top: 50px;
+}
+.tabs_btn {
+    width: 270px;
+    height: 58px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 78px;
+    background: #EC7979;
+    color: #FFFFFF;
+    border: none;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.image_tabs {
+    position: relative;
+    bottom: 1px;
+}
