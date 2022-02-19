@@ -1,0 +1,41 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body {
+    box-sizing: border-box;
+    width:1510px;
+    margin: 0 auto;
+    font-family:'Raleway', sans-serif ;
+}
+h1,h2,h3,h4,h5 {
+    padding: 0;
+    margin: 0;
+    font-family:'Open Sans', sans-serif ;
+}
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+.head {
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.header__nav {
+    font-size:14px ;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.features {
+    padding-left:50px ;
+}
