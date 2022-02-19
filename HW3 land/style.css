@@ -467,7 +467,7 @@ a {
 }
 .customer__content {
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 66px;
 }
 .info_customer {
     box-sizing: border-box;
@@ -487,4 +487,106 @@ a {
 .about__customer {
     display: flex;
     justify-content: space-around;
+}
+.name_customer {
+    padding-top: 20px;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 65px;
+}
+.name_customer span {
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.city {
+    width: 1510px;
+    height: 442px;
+    background-image: url(./image/image1.png);
+}
+.container__city {
+    width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+}
+.wrapper__city {
+    background: rgba(0, 0, 0, 0.5);
+}
+.city_title {
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 100px;
+
+}
+.hr_city {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+    margin-top: 50px;
+}
+.about_city {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.city_btn {
+    margin-top: 75px;
+    padding:15px 140px;
+    margin-bottom: 50px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.wrapper__contact {
+    width: 1170px;
+    margin-left: 170px;
+}
+.input_ban.act {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input_ban.act_one {
+   
+}
+.foot_link {
+    background-color:  #000000;
+}
+.link__footer {
+    display: flex;
+    justify-content: center; 
+}
+.social_img.act {
+    align-items: center;
+    margin-left: 32px;
+    padding: 30px 0;
+}
+.foot_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+
 }
