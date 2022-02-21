@@ -17,6 +17,7 @@ ul, li {
 link {
     text-decoration: none;
     cursor: pointer;
+    color: #000;
 }
 button{
     cursor: pointer;
