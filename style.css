@@ -644,6 +644,7 @@ a {
         width: 42px;
         height: 42px;
         margin-left: 10px;
+        margin-top: 25px;
     }
     .image_tabs {
         display: none;
@@ -667,5 +668,23 @@ a {
     .aws__container {
         display: flex;
         justify-content: space-between;
+    }
+    .wrapper__price {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .city {
+        width: 960px;
+    }
+    .city__container {
+        width: 100%;
+    }
+    .contact {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .wrapper__contact {
+        width: 100%;
+        margin: 0 auto;
     }
 }
