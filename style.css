@@ -600,3 +600,72 @@ a {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 20px;
 }
+@media screen and (max-width:1200px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .wrapper {
+        max-width: 960px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .banner__title {
+        width: 400px;
+    }
+    .banner__form {
+       width: 350px;
+       margin: 60px 0 0 50px;
+    }
+    .banner__content {
+        width: 400px;
+        margin: 0 0 0 20px;
+    }
+    .input_ban {
+        width: 290px;
+    }
+    .get_started {
+        width: 350px;
+    }
+    .social {
+    }
+    .container__social {
+        max-width: 300px;
+    }
+    .social__title {
+        width: 300px;
+        margin: 0;
+    }
+    .social__about {
+        width: 300px;
+        margin: 0;
+    }
+    .social_img img {
+        width: 42px;
+        height: 42px;
+        margin-left: 10px;
+    }
+    .image_tabs {
+        display: none;
+    }
+    .container__tabs {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .awesome {
+        margin: 0 auto;
+    }
+    .awesome__wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .awesome__container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .aws__container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
