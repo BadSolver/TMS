@@ -603,7 +603,6 @@ a {
 @media screen and (max-width:1200px) {
     body {
         max-width: 960px;
-        margin: 0 auto;
     }
     .wrapper {
         max-width: 960px;
