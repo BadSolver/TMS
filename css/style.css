@@ -373,6 +373,47 @@ h6 {
   line-height: 21px;
 }
 
+.design {
+  background-image: url(/image/bgdesign.png), url(/image/bg.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom center;
+}
+
+.design .design__wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.design .design__title {
+  margin-top: 1rem;
+  padding-top: 0.2rem;
+}
+
+.design .design__ipad_border {
+  background-image: url(/image/ipadborder.png), url(/image/ipad.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 1.2rem;
+  padding-bottom: 3rem;
+  width: 1170px;
+  height: 525px;
+  z-index: 1;
+}
+
+.design .design__iphone {
+  background-image: url(/image/iphoneborder.png), url(/image/iphone.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center top;
+  position: relative;
+  top: 15rem;
+  left: 50rem;
+  width: 200px;
+  height: 412px;
+}
+
 .global_suptitle {
   font-weight: 400;
   font-size: 30px;
@@ -410,7 +451,6 @@ h6 {
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
-  background-image: url(/image/img1.png);
 }
 
 html {
