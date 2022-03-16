@@ -87,7 +87,7 @@ h6 {
   margin: 0 auto;
 }
 
-.header__container {
+.container .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,7 +103,7 @@ h6 {
   padding-top: 1.25em;
 }
 
-.header_nav {
+.container .header__container .header_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,7 +174,7 @@ h6 {
   padding: 0 3.75rem;
 }
 
-.hr_upbtn {
+.header__title .hr_upbtn {
   margin: 0 auto;
   max-width: 10.625em;
   width: 100%;
@@ -183,7 +183,7 @@ h6 {
   margin-bottom: 4.62rem;
 }
 
-.header_btn {
+.header__title .header_btn {
   position: relative;
   margin-bottom: 7.25rem;
   padding: 0.9em 4.5em;
@@ -200,13 +200,13 @@ h6 {
   transition: .4s linear, color .4s linear;
 }
 
-.header_btn:hover {
+.header__title .header_btn:hover {
   background-color: #FFFFFF;
   color: #E4BE8D;
   border: 4px solid #8d5914;
 }
 
-.header_btn:active {
+.header__title .header_btn:active {
   background-color: #FFFFFF;
   color: #E4BE8D;
 }
@@ -220,7 +220,7 @@ h6 {
           justify-content: space-between;
 }
 
-.about_intro {
+.header__about .about_intro {
   position: relative;
   font-weight: 700;
   font-size: 36px;
@@ -233,18 +233,18 @@ h6 {
   opacity: .5;
 }
 
-.about_intro span {
+.header__about .about_intro span {
   font-weight: 500;
   font-size: 18px;
   line-height: 21.13px;
 }
 
-.about_intro:hover {
+.header__about .about_intro:hover {
   border-top: 3px solid;
   opacity: 1;
 }
 
-.about_intro:hover::before {
+.header__about .about_intro:hover::before {
   content: "";
   position: absolute;
   left: 0;
@@ -294,7 +294,7 @@ h6 {
 .main__counter .counter_content {
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
-  padding: 3.2rem 2.6rem 3.2rem 2.6rem;
+  padding: 2.3rem 2.6rem 2.3rem 2.6rem;
 }
 
 .main__counter .counter_content:first-child {
@@ -346,7 +346,7 @@ h6 {
       justify-content: space-around;
 }
 
-.amazing__content {
+.amazing__container .amazing__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,7 +356,7 @@ h6 {
   margin-top: 5.7rem;
 }
 
-.amazing_photo {
+.amazing__container .amazing_photo {
   text-align: left;
   padding: 1rem;
   font-weight: 700;
@@ -365,7 +365,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.amazing_photo_txt {
+.amazing__container .amazing_photo_txt {
   text-align: left;
   padding-left: 1rem;
   font-weight: 400;
@@ -445,12 +445,90 @@ h6 {
   max-width: 1510px;
 }
 
-.service__title {
+.service__wrapper .service__title {
   position: relative;
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
+}
+
+.service__content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service__content .service_photo {
+  margin-right: 2.3rem;
+}
+
+.service__content .service__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.service__content .service_photography {
+  background-image: url(/image/sevicephotography.png), url(/image/arrow_up.png);
+  background-position: left 2rem center, right 1rem center;
+  background-repeat: no-repeat;
+  padding: 2rem 0 2rem 5rem;
+  border: 1px solid #C6CBCD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2D3033;
+  text-transform: uppercase;
+}
+
+.service__content .service_photography_text {
+  background-image: url(/image/scrolbar.png);
+  background-position: right 1.5rem center;
+  background-repeat: no-repeat;
+  border: 1px solid #C6CBCD;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 1rem 2rem;
+}
+
+.service__content .service_creative {
+  background-image: url(/image/servicecreative.png), url(/image/arrow_down.png);
+  background-position: left 2rem center, right 1rem center;
+  background-repeat: no-repeat;
+  padding: 2.5rem 0 2rem 5rem;
+  border: 1px solid #C6CBCD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2D3033;
+  text-transform: uppercase;
+}
+
+.service__content .service_web {
+  background-image: url(/image/serviceweb.png), url(/image/arrow_down.png);
+  background-position: left 2rem center, right 1rem center;
+  background-repeat: no-repeat;
+  padding: 2rem 0 2rem 5rem;
+  border: 1px solid #C6CBCD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2D3033;
+  text-transform: uppercase;
 }
 
 html {

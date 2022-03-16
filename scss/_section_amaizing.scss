@@ -13,24 +13,26 @@
 .amazing__container {
     display: flex;
     justify-content: space-around;
+    .amazing__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5.7rem;
+    }
+    .amazing_photo {
+        text-align: left;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+    }
+    .amazing_photo_txt {
+        text-align: left;
+        padding-left: 1rem;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
 }
-.amazing__content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5.7rem;
-}
-.amazing_photo {
-    text-align: left;
-    padding: 1rem;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-}
-.amazing_photo_txt {
-    text-align: left;
-    padding-left: 1rem;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-}
+

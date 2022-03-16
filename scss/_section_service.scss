@@ -1,11 +1,75 @@
 .service__wrapper {
     width: 100%;
     max-width: 1510px;
+    .service__title {
+        position: relative;
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
-.service__title {
-    position: relative;
+.service__content {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    .service_photo {
+        margin-right: 2.3rem;
+    }
+    .service__about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .service_photography {
+        background-image: url(/image/sevicephotography.png), url(/image/arrow_up.png);
+        background-position: left 2rem center, right 1rem center;
+        background-repeat: no-repeat;
+        padding: 2rem 0 2rem 5rem;
+        border: 1px solid $gray;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $black;
+        text-transform: uppercase;
+    }
+    .service_photography_text {
+        background-image: url(/image/scrolbar.png);
+        background-position: right 1.5rem center;
+        background-repeat: no-repeat;
+        border: 1px solid $gray;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 1rem 2rem ;
+    }
+    .service_creative {
+        background-image: url(/image/servicecreative.png),url(/image/arrow_down.png);
+        background-position: left 2rem center, right 1rem center;
+        background-repeat: no-repeat;
+        padding: 2.5rem 0 2rem 5rem;
+        border: 1px solid $gray;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $black;
+        text-transform: uppercase;
+    }
+    .service_web {
+        background-image: url(/image/serviceweb.png), url(/image/arrow_down.png);
+        background-position: left 2rem center, right 1rem center;
+        background-repeat: no-repeat;
+        padding: 2rem 0 2rem 5rem;
+        border: 1px solid $gray;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $black;
+        text-transform: uppercase;
+    }
 }
+
+
+
