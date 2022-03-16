@@ -1,0 +1,22 @@
+.global_suptitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+.global_title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 2rem;
+}
+.global_hr {
+    margin: 0 auto;
+    width: 10.63em;
+    border: 3px solid $tomat;
+    margin-bottom: 1.5em;
+}
+.global_text {
+    margin-bottom: 42px;
+}
