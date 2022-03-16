@@ -6,7 +6,7 @@
  
   "scripts": {
     "start": "parcel",
-    "go": "parcel watch index.html --port 3000",
+    "go": "parcel index.html --open --port 3000",
     "test": "(parcel ./index.html) & parcel watch ./index.html "
   },
   "author": "",
