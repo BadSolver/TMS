@@ -1,0 +1,19 @@
+{
+  "name": "hw9",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./index.html",
+ 
+  "scripts": {
+    "start": "parcel",
+    "go": "parcel watch index.html --port 3000",
+    "test": "(parcel ./index.html) & parcel watch ./index.html "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  }
+}

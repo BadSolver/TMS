@@ -1,0 +1,16 @@
+@import "_color.scss";
+@import "_fonts.scss";
+@import "_h1-h6.scss";
+@import "_header.scss";
+body{
+box-sizing: border-box;
+max-width: 1510px;
+margin: 0 auto;
+font-family: 'Raleway', sans-serif;
+}
+a, button, link{
+    cursor: pointer;
+    text-decoration: none;
+    color: $white;
+}
+
