@@ -409,6 +409,7 @@ h6 {
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .global_hr {
@@ -900,6 +901,38 @@ h6 {
   background-position: center center;
   padding-left: 4rem;
   padding-top: 4px;
+}
+
+.blog__wrapper {
+  width: 100%;
+  max-width: 1510px;
+  margin: 0 auto;
+  background-image: url(/image/blogbg.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.blog__content img {
+  margin-top: 3rem;
+}
+
+.blog_title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #F38281;
+  margin-top: 2rem;
+}
+
+.blog_hr {
+  display: inline-block;
+  width: 10.625rem;
+  height: 3px;
+  background-color: #F38281;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 html {
