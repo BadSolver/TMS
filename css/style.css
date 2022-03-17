@@ -847,6 +847,7 @@ h6 {
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .latest__content {
@@ -883,6 +884,22 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.latest_msg {
+  background-image: url(/image/latestico1.png);
+  background-repeat: no-repeat;
+  background-position: left  center;
+  padding-left: 2.5rem;
+  padding-bottom: 2px;
+}
+
+.latest_message {
+  background-image: url(/image/latestico2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 4rem;
+  padding-top: 4px;
 }
 
 html {

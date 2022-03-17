@@ -749,6 +749,7 @@ h6 {
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 4rem;
 }
 .latest__content {
   display: -webkit-box;
@@ -781,6 +782,20 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+.latest_msg {
+  background-image: url("latestico1.fb3147c9.png");
+  background-repeat: no-repeat;
+  background-position: left  center;
+  padding-left: 2.5rem;
+  padding-bottom: 2px;
+}
+.latest_message {
+  background-image: url("latestico2.6d6135c2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 4rem;
+  padding-top: 4px;
 }
 html {
   font-family: 'Raleway', sans-serif;
