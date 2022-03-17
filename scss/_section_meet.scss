@@ -1,0 +1,54 @@
+.meet__wrapper {
+    width: 100%;
+    max-width:1187px;
+    margin: 0 auto;
+    text-align: center;
+    .meet__container {
+        display:flex ;
+        justify-content: space-evenly;
+    }
+    .meet_img:hover:after {
+        width: 370px;
+        height: 472px;
+        position: absolute;
+        left: 360px;
+        content: '';
+        background-image: url(/image/diasbg.png);
+        background-repeat: no-repeat;
+    }
+      .meet_img.first:hover:after {
+        width: 370px;
+        height: 472px;
+        position: absolute;
+        left: 752px;
+        content: '';
+        background-image: url(/image/diasbg.png);
+        background-repeat: no-repeat;
+    }
+      .meet_img.second:hover:after {
+        width: 370px;
+        height: 472px;
+        position: absolute;
+        left: 1143px;
+        content: '';
+        background-image: url(/image/diasbg.png);
+        background-repeat: no-repeat;
+    }
+    .meet_name {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: $black;
+        margin-top: 1rem;
+    }
+    .meet_position {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: $black;
+        margin-bottom: 5rem;
+    }
+    
+}

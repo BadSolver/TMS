@@ -531,6 +531,93 @@ h6 {
   text-transform: uppercase;
 }
 
+.meet__wrapper {
+  width: 100%;
+  max-width: 1187px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.meet__wrapper .meet__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.meet__wrapper .meet_img:hover:after {
+  width: 370px;
+  height: 472px;
+  position: absolute;
+  left: 360px;
+  content: '';
+  background-image: url(/image/diasbg.png);
+  background-repeat: no-repeat;
+}
+
+.meet__wrapper .meet_img.first:hover:after {
+  width: 370px;
+  height: 472px;
+  position: absolute;
+  left: 752px;
+  content: '';
+  background-image: url(/image/diasbg.png);
+  background-repeat: no-repeat;
+}
+
+.meet__wrapper .meet_img.second:hover:after {
+  width: 370px;
+  height: 472px;
+  position: absolute;
+  left: 1143px;
+  content: '';
+  background-image: url(/image/diasbg.png);
+  background-repeat: no-repeat;
+}
+
+.meet__wrapper .meet_name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #2D3033;
+  margin-top: 1rem;
+}
+
+.meet__wrapper .meet_position {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #2D3033;
+  margin-bottom: 5rem;
+}
+
+.icons__wrapper {
+  width: 100%;
+  max-width: 1510px;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+}
+
+.icons__wrapper .icons__container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.6rem 0;
+}
+
 html {
   font-family: 'Raleway', sans-serif;
 }
