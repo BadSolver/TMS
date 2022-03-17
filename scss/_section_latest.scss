@@ -1,0 +1,35 @@
+.latest__wrapper {
+    width: 100%;
+    max-width: 1510px;
+    margin: 0 auto;
+    text-align: center;
+}
+.latest__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.latest__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.latest__item {
+    display:flex ;
+    flex-direction: column;
+    text-align: left;
+}
+.latest_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $black;
+    margin-top: 1rem;
+}
+.latest__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
