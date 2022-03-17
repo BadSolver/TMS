@@ -18,11 +18,6 @@
     .service_photo {
         margin-right: 2.3rem;
     }
-    .service__about {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
     .service_photography {
         background-image: url(/image/sevicephotography.png), url(/image/arrow_up.png);
         background-position: left 2rem center, right 1rem center;
@@ -34,6 +29,9 @@
         line-height: 28px;
         color: $black;
         text-transform: uppercase;
+        &:hover {
+            cursor: pointer;
+        }
     }
     .service_photography_text {
         background-image: url(/image/scrolbar.png);
@@ -50,24 +48,32 @@
         background-position: left 2rem center, right 1rem center;
         background-repeat: no-repeat;
         padding: 2.5rem 0 2rem 5rem;
+        margin-top: 1rem;
         border: 1px solid $gray;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
         color: $black;
         text-transform: uppercase;
+        &:hover {
+            cursor: pointer;
+        }
     }
     .service_web {
         background-image: url(/image/serviceweb.png), url(/image/arrow_down.png);
         background-position: left 2rem center, right 1rem center;
         background-repeat: no-repeat;
         padding: 2rem 0 2rem 5rem;
+        margin-top: 1rem;
         border: 1px solid $gray;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
         color: $black;
         text-transform: uppercase;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
