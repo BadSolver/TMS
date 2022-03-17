@@ -618,6 +618,40 @@ h6 {
   padding: 2.6rem 0;
 }
 
+.work__wrapper {
+  width: 100%;
+  max-width: 1510px;
+  margin: 0 auto;
+}
+
+.work__wrapper .work__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.work_img_1 {
+  width: 377px;
+  height: 378px;
+}
+
+.work_img_2 {
+  width: 377px;
+  height: 378px;
+}
+
+.work_img_4 {
+  width: 377px;
+  height: 378px;
+}
+
+.work_img_5 {
+  width: 377px;
+  height: 378px;
+}
+
 html {
   font-family: 'Raleway', sans-serif;
 }
