@@ -1,10 +1,16 @@
-.work__container{
+.work__container {
     display: flex;
     flex-wrap: wrap;
+    .work__item {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
 }
-.work__item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 3rem;
+.work__title {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+   
 }

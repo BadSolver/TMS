@@ -415,7 +415,7 @@ h6 {
 .global_hr {
   margin: 0 auto;
   width: 10.63em;
-  border: 3px solid #F38281;
+  border-bottom: 3px solid #F38281;
   margin-bottom: 1.5em;
 }
 
@@ -688,7 +688,7 @@ h6 {
       flex-wrap: wrap;
 }
 
-.work__item {
+.work__container .work__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -699,6 +699,12 @@ h6 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 3rem;
+}
+
+.work__title {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .dialog__wrapper {
@@ -731,6 +737,7 @@ h6 {
   background-image: url(/image/dialog_arrow_right.png);
   background-repeat: no-repeat;
   background-position: right  center;
+  text-align: left;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 4rem;
