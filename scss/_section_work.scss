@@ -6,22 +6,10 @@
         display: flex;
         flex-wrap: wrap;
     }
-}
-.work_img_1 {
-    width: 377px;
-    height: 378px;
-}
-.work_img_2 {
-    width: 377px;
-    height: 378px;
-}
-.work_img_3 {
-}
-.work_img_4 {
-    width: 377px;
-    height: 378px;
-}
-.work_img_5 {
-    width: 377px;
-    height: 378px;
+    .work__item {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
 }
