@@ -1110,6 +1110,7 @@ html {
           box-sizing: border-box;
   width: 100%;
   max-width: 1510px;
+  margin: 0 auto;
 }
 
 body {
