@@ -76,8 +76,8 @@ h6 {
   width: 100%;
   max-width: 1510px;
   height: 1024px;
-  background-image: url(/image/img1.png), url(/image/img2.png), -webkit-gradient(linear, left bottom, left top, from(rgba(237, 215, 137, 0.9)), to(rgba(233, 130, 131, 0.9)));
-  background-image: url(/image/img1.png), url(/image/img2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+  background-image: url(../image/img1.png), url(../image/img2.png), -webkit-gradient(linear, left bottom, left top, from(rgba(237, 215, 137, 0.9)), to(rgba(233, 130, 131, 0.9)));
+  background-image: url(../image/img1.png), url(../image/img2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom center;
 }
@@ -364,7 +364,7 @@ h6 {
 }
 
 .design {
-  background-image: url(/image/bgdesign.png), url(/image/bg.png);
+  background-image: url(../image/bgdesign.png), url(../image/bg.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom center;
 }
@@ -375,7 +375,7 @@ h6 {
 }
 
 .design .design__ipad_border {
-  background-image: url(/image/ipadborder.png), url(/image/ipad.png);
+  background-image: url(../image/ipadborder.png), url(../image/ipad.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   position: relative;
@@ -387,7 +387,7 @@ h6 {
 }
 
 .design .design__iphone {
-  background-image: url(/image/iphoneborder.png), url(/image/iphone.png);
+  background-image: url(../image/iphoneborder.png), url(../image/iphone.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center top;
   position: absolute;
@@ -468,7 +468,7 @@ h6 {
 }
 
 .service__content .service_photography {
-  background-image: url(/image/sevicephotography.png), url(/image/arrow_up.png);
+  background-image: url(../image/sevicephotography.png), url(../image/arrow_up.png);
   background-position: left 2rem center, right 1rem center;
   background-repeat: no-repeat;
   padding: 2rem 0 2rem 5rem;
@@ -485,7 +485,7 @@ h6 {
 }
 
 .service__content .service_photography_text {
-  background-image: url(/image/scrolbar.png);
+  background-image: url(../image/scrolbar.png);
   background-position: right 1.5rem center;
   background-repeat: no-repeat;
   border: 1px solid #C6CBCD;
@@ -496,7 +496,7 @@ h6 {
 }
 
 .service__content .service_creative {
-  background-image: url(/image/servicecreative.png), url(/image/arrow_down.png);
+  background-image: url(../image/servicecreative.png), url(../image/arrow_down.png);
   background-position: left 2rem center, right 1rem center;
   background-repeat: no-repeat;
   padding: 2.5rem 0 2rem 5rem;
@@ -514,7 +514,7 @@ h6 {
 }
 
 .service__content .service_web {
-  background-image: url(/image/serviceweb.png), url(/image/arrow_down.png);
+  background-image: url(../image/serviceweb.png), url(../image/arrow_down.png);
   background-position: left 2rem center, right 1rem center;
   background-repeat: no-repeat;
   padding: 2rem 0 2rem 5rem;
@@ -727,7 +727,7 @@ h6 {
 }
 
 .dialog__wrapper .dialog_item {
-  background-image: url(/image/dialog_arrow_left.png);
+  background-image: url(../image/dialog_arrow_left.png);
   background-repeat: no-repeat;
   background-position: left  center;
   padding-left: 5rem;
@@ -735,7 +735,7 @@ h6 {
 }
 
 .dialog__wrapper .dialog_text {
-  background-image: url(/image/dialog_arrow_right.png);
+  background-image: url(../image/dialog_arrow_right.png);
   background-repeat: no-repeat;
   background-position: right  center;
   text-align: left;
@@ -775,8 +775,8 @@ h6 {
   max-width: 1510px;
   margin: 0 auto;
   text-align: center;
-  background-image: url(/image/peoplebg1.png), url(/image/peoplebg2.png), -webkit-gradient(linear, left bottom, left top, from(rgba(237, 215, 137, 0.9)), to(rgba(233, 130, 131, 0.9)));
-  background-image: url(/image/peoplebg1.png), url(/image/peoplebg2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+  background-image: url(../image/peoplebg1.png), url(../image/peoplebg2.png), -webkit-gradient(linear, left bottom, left top, from(rgba(237, 215, 137, 0.9)), to(rgba(233, 130, 131, 0.9)));
+  background-image: url(../image/peoplebg1.png), url(../image/peoplebg2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom center;
 }
@@ -896,7 +896,7 @@ h6 {
 }
 
 .latest_msg {
-  background-image: url(/image/latestico1.png);
+  background-image: url(../image/latestico1.png);
   background-repeat: no-repeat;
   background-position: left  center;
   padding-left: 2.5rem;
@@ -904,7 +904,7 @@ h6 {
 }
 
 .latest_message {
-  background-image: url(/image/latestico2.png);
+  background-image: url(../image/latestico2.png);
   background-repeat: no-repeat;
   background-position: center center;
   padding-left: 4rem;
@@ -915,7 +915,7 @@ h6 {
   width: 100%;
   max-width: 1510px;
   margin: 0 auto;
-  background-image: url(/image/blogbg.png);
+  background-image: url(../image/blogbg.png);
   background-repeat: no-repeat;
   text-align: center;
 }
