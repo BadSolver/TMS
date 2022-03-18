@@ -73,7 +73,8 @@ h6 {
 }
 
 .wrapper {
-  width: 1510px;
+  width: 100%;
+  max-width: 1510px;
   height: 1024px;
   background-image: url(/image/img1.png), url(/image/img2.png), -webkit-gradient(linear, left bottom, left top, from(rgba(237, 215, 137, 0.9)), to(rgba(233, 130, 131, 0.9)));
   background-image: url(/image/img1.png), url(/image/img2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
@@ -389,7 +390,7 @@ h6 {
   background-image: url(/image/iphoneborder.png), url(/image/iphone.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center top;
-  position: relative;
+  position: absolute;
   top: 15rem;
   left: 50rem;
   width: 200px;
@@ -1105,6 +1106,10 @@ h6 {
 
 html {
   font-family: 'Raleway', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  max-width: 1510px;
 }
 
 body {
