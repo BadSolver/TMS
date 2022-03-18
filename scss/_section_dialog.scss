@@ -1,0 +1,54 @@
+.dialog__wrapper {
+    width: 100%;
+    max-width: 1510px;
+    margin: 0 auto;
+    background-color:$whiteF8;
+    margin-top: 7rem; 
+    .dialog__container {
+        position: relative;
+        width: 100%;
+        max-width: 1170px;
+        margin:  0 auto;
+        display: flex;
+    
+    }
+    .dialog_item {
+        background-image: url(/image/dialog_arrow_left.png);
+        background-repeat: no-repeat;
+        background-position: left  center;
+        padding-left: 5rem;
+        margin: 1rem 0;
+    }
+    .dialog_text {
+        background-image: url(/image/dialog_arrow_right.png);
+        background-repeat: no-repeat;
+        background-position: right  center;
+        text-align: left;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 4rem;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #A9AFB1;
+    }
+    .dialog_author {
+        font-family:'Kaushan Script';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        color: #000000;
+        &::before {
+            content: '';
+            display: inline-block;
+            vertical-align:middle ;
+            width: 5rem;
+            height: 2px;
+            background-color: $tomat;
+            margin-right: 3rem;
+        }
+    }
+}
+.dialog__wrapper.act {
+    background-color: $white;
+}
