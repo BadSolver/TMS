@@ -23,6 +23,7 @@ html{
     box-sizing: border-box;
     width: 100%;
     max-width: 1510px;
+    margin: 0 auto;
 }
 body{
 box-sizing: border-box;
@@ -35,4 +36,3 @@ a, button, link{
     text-decoration: none;
     color: $white;
 }
-

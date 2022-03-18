@@ -19,7 +19,7 @@
         margin-right: 2.3rem;
     }
     .service_photography {
-        background-image: url(/image/sevicephotography.png), url(/image/arrow_up.png);
+        background-image: url(../image/sevicephotography.png), url(../image/arrow_up.png);
         background-position: left 2rem center, right 1rem center;
         background-repeat: no-repeat;
         padding: 2rem 0 2rem 5rem;
@@ -34,7 +34,7 @@
         }
     }
     .service_photography_text {
-        background-image: url(/image/scrolbar.png);
+        background-image: url(../image/scrolbar.png);
         background-position: right 1.5rem center;
         background-repeat: no-repeat;
         border: 1px solid $gray;
@@ -44,7 +44,7 @@
         padding: 1rem 2rem ;
     }
     .service_creative {
-        background-image: url(/image/servicecreative.png),url(/image/arrow_down.png);
+        background-image: url(../image/servicecreative.png),url(../image/arrow_down.png);
         background-position: left 2rem center, right 1rem center;
         background-repeat: no-repeat;
         padding: 2.5rem 0 2rem 5rem;
@@ -60,7 +60,7 @@
         }
     }
     .service_web {
-        background-image: url(/image/serviceweb.png), url(/image/arrow_down.png);
+        background-image: url(../image/serviceweb.png), url(../image/arrow_down.png);
         background-position: left 2rem center, right 1rem center;
         background-repeat: no-repeat;
         padding: 2rem 0 2rem 5rem;

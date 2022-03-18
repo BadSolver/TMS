@@ -1104,6 +1104,12 @@ h6 {
   text-align: center;
 }
 
+.newfile {
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 html {
   font-family: 'Raleway', sans-serif;
   -webkit-box-sizing: border-box;
@@ -1111,6 +1117,13 @@ html {
   width: 100%;
   max-width: 1510px;
   margin: 0 auto;
+}
+
+.new {
+  margin: 0 auto;
+  font: optional;
+  -webkit-text-decoration: "";
+          text-decoration: "";
 }
 
 body {

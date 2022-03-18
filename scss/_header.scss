@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1510px;
     height: 1024px;
-    background-image: url(/image/img1.png), url(/image/img2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+    background-image: url(../image/img1.png), url(../image/img2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom center;
 }
@@ -148,6 +148,4 @@
         }
     }
 }
-
-
 
