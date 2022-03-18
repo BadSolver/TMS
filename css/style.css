@@ -949,25 +949,13 @@ h6 {
   background-color: #F8F8F8;
 }
 
-.global__container {
+.footer__wrapper .global__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.global__logo_blogs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.global__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .global__content {
@@ -975,41 +963,38 @@ h6 {
   max-width: 23rem;
 }
 
-.global_followers {
+.global__content .global_followers {
   color: #2D3033;
   margin-bottom: 1rem;
   border-bottom: 1px solid #C6CBCD;
 }
 
-.foot_15 {
+.global__content .global_followers .foot_15 {
   font-weight: 700;
   font-size: 36px;
   line-height: 30px;
 }
 
-.foot_k {
+.global__content .global_followers .foot_k {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
 }
 
-.foot_foll {
+.global__content .global_followers .foot_foll {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
 }
 
-.global_socials {
+.global__content .global_socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.global_socials {
   font-weight: 400;
   font-size: 13px;
   line-height: 15px;
@@ -1017,7 +1002,7 @@ h6 {
   margin-bottom: 2rem;
 }
 
-.footer_input {
+.global__content .footer_input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   max-width: 15rem;
@@ -1032,7 +1017,7 @@ h6 {
   border-right: none;
 }
 
-.footer_btn {
+.global__content .footer_btn {
   position: absolute;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1046,6 +1031,20 @@ h6 {
   line-height: 21px;
 }
 
+.global__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.global__item .global__logo_blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .global_title {
   text-align: left;
   margin-top: 2rem;
@@ -1053,11 +1052,6 @@ h6 {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-}
-
-.global__item {
-  margin-bottom: 1rem;
-  text-align: left;
 }
 
 .global__text_blogs {
