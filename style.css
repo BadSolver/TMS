@@ -600,3 +600,222 @@ a {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 20px;
 }
+@media screen and (max-width:1200px) {
+    body {
+        max-width: 960px;
+    }
+    .wrapper {
+        max-width: 960px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .banner__title {
+        width: 400px;
+    }
+    .banner__form {
+       width: 350px;
+       margin: 60px 0 0 50px;
+    }
+    .banner__content {
+        width: 400px;
+        margin: 0 0 0 20px;
+    }
+    .input_ban {
+        width: 290px;
+    }
+    .get_started {
+        width: 350px;
+    }
+    .social {
+    }
+    .container__social {
+        max-width: 300px;
+    }
+    .social__title {
+        width: 300px;
+        margin: 0;
+    }
+    .social__about {
+        width: 300px;
+        margin: 0;
+    }
+    .social_img img {
+        width: 42px;
+        height: 42px;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+    .image_tabs {
+        display: none;
+    }
+    .container__tabs {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .awesome {
+        margin: 0 auto;
+    }
+    .awesome__wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .awesome__container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .aws__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper__price {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .city {
+        width: 960px;
+    }
+    .city__container {
+        width: 100%;
+    }
+    .contact {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .wrapper__contact {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px) {
+    html {
+        width:576px ;
+        margin: 0;
+    }
+    body {
+        margin: 0;
+        width: 576px;
+        overflow-x:hidden;
+    }
+    .navigation__link {
+        width: 576px;
+    }
+    .header__logo {
+        display: none;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .logo_ban {
+        margin-left: 10px;
+    }
+    .banner__content {
+        width: 576px;
+        margin: 0 auto;
+    }
+    .banner__title {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 36px;
+        text-align: center;
+    }
+    .features {
+        margin-left: 10px;
+    }
+    .banner__hr {
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    .banner__about {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner__btn {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner__form {
+        margin: 0 auto;
+    }
+    .wrapper__social {
+        width:576px ;
+        display: flex;
+        flex-direction: column;
+    }
+    .container__social {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .social__image {
+        display: flex;
+        justify-content: space-around;
+    }
+    .social_img {
+        margin-left: 10px;
+    }
+    .tabs {
+        width: 576px;
+    }
+    .container__tabs {
+        width: 99%;
+    }
+    .awesome__wrapper {
+        width: 576px;
+    }
+    .aws__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper__price  {
+        width: 576px;
+        margin: 0 auto;
+    }
+
+    .price__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .price__content {
+        margin: 0 auto;
+    }
+    .price__content.top {
+        margin-top: 30px;
+    }
+    .customer__content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .customer__about {
+        display: flex;
+        flex-direction: column;
+    }
+    .customer_info.act {
+        margin: 20px auto;
+    }
+    .customer_info {
+        margin: 20px auto;
+    }
+    .customer__ava.act {
+        margin: 0 auto;
+    }
+    .customer__prof {
+        text-align: center;
+    }
+    .city {
+        width: 576px;
+    }
+    .wrapper__city {
+        width: 100%;
+    }
+    .contact {
+        width: 576px;
+    }
+    .input_ban.act_one {
+        margin-left: 100px;
+        padding-top: 100px;
+    }
+}
