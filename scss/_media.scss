@@ -349,53 +349,44 @@
         .footer__content {
             margin-bottom: 2rem;
         }
-    }
-    
-    
-    
-    
-    
+    }    
 }
-
-
 
 
 @media screen and (max-width:768px) {
     html {
         width: 100%;
-        max-width: 475px;
+        max-width: 768px;
         box-sizing: border-box;
     }
     // header
     .wrapper {
+        width: 100%;
         height: 600px;
-        margin: 0 auto;
+        max-width: 768px;
     }
-    .container {
-        .header__suptitle {
-            margin-top: .5rem;
-            margin-bottom: 3rem;
-            & .suptitle {
-                font-weight: 400;
-                font-size: 36px;
-                line-height: 52px;
-            }
-        }
+    .header__title {
+        height: auto;
+        margin-bottom: 4rem;
     }
+    .suptitle {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .header__title .title {
+        margin-top: 1rem;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 52px;
+    } 
     .header__nav_link {
         display: none;
     }
-    .title {
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 79px;
+    .hr_upbtn {
+        margin: 2rem auto;
     }
-    .header__title {
-        height: 300px;
-        .hr_upbtn {
-            margin: 2rem auto;
-        }
-    }
+    
     .header__title .header_btn {
         width: 100%;
         max-width: 17.8rem;
@@ -427,23 +418,203 @@
     .global_text {
         margin: 1rem .6rem;
     }
+    .main__container {
+        width: 100%;
+        max-width: 768px;
+    }
     .meet__card {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         max-width: 768px;
+        margin-left: 2rem;
         .card__item {
             position: relative;
             width: 100%;
-            max-width: 400px;
+            width: 25rem;
             margin-bottom: 1rem;
-            margin: 1rem 0 0 3rem;
-            &:first-child {
-                margin-left: 3rem;
+            margin: 1rem 0 0 0;
+            .card__img.meet {
+                width: 400px;
+                margin-right: 2rem;
             }
             .card__img {
                 width: 100%;
             }
         }
     }
-}    
+
+    .main__counter {
+        flex-wrap: wrap;
+        align-items: center;
+        align-self: center;
+        .counter_content {
+            flex: 0 1 43.2%;
+            border: none;
+            border-bottom: 1px solid $whiteF8;
+            &:last-child {
+                border: none;
+                flex: 0 1 100%;
+            }
+        } 
+    }
+
+
+    //section amaizing
+
+    .amazing__container {
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-left: 2rem;
+    }
+
+    // section design
+
+    .design {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        .design__ipad_border {
+            background-image: url(../image/ipadmob.png);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position:  center;
+            width: 29.6875rem;
+        }
+        .design__iphone {
+            background-image: url(../image/iphonemob.png);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position: center top;
+            position: absolute;
+            top: 300px;
+            left: 270px;
+        }
+    }
+
+    // section service
+    .service_photo img {
+        width: 27rem;
+        height: 19rem;
+        margin-left: .7rem;
+    }
+
+    // section dialog
+    .dialog__container {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .dialog__wrapper {
+        .dialog_item {
+            background-image: none;
+            flex: 0 1 60%;
+        }
+        .dialog_text {
+            background-image: url(../image/dialog_arrow_left.png), url(../image/dialog_arrow_right.png);
+            background-repeat: no-repeat;
+            background-position: left  center, right center;
+            margin-right: 1rem;
+            padding-left: 4rem;
+        }
+    }
+
+    //section meet
+
+    
+    .meet__wrapper {
+        .card__container {
+            align-items: center;
+            .card__img img {
+                max-width: 427px;
+                height: 390px;
+            }
+        }
+    }
+    
+
+    //section icons
+
+    .icons__wrapper {
+        .icons__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+
+
+    //section work
+    .work__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .work__item.small img {
+            max-width: 230px;
+            max-height: 229px;
+        }
+        .work__item.big img {
+            max-width: 228.39px;
+        }
+    }
+
+    //section people
+
+    .people {
+        .people__wrapper {
+            width: 100%;
+            max-width: 768px;
+            background-repeat: repeat;
+        } 
+    }
+
+    //section latest blog
+
+    .latest__content {
+        .latest__item {
+            .latest__img img {
+                max-width: 450px;
+            }
+        }
+    }
+        
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  
 
