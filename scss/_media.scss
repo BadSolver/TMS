@@ -1,0 +1,359 @@
+@media screen and (max-width:1200px) {
+    html {
+        width: 100%;
+        max-width: 1200px;
+        box-sizing: border-box;
+    }
+
+    // header
+    .header__logo {
+        margin-left: 2rem;
+    }
+    .header_nav {
+        margin-right: 2rem;
+    }
+    .header__title {
+        height: 600px;
+    }
+    .header__about {
+        display: flex;
+        justify-content: space-around;
+        .about__content {
+            width: 100%;
+            max-width: 13rem;
+            .about_intro {
+                padding-right: 4rem;
+            }
+        }
+    }
+
+    // section main (story about)
+    .card__img.meet {
+        width: 100%;
+    }
+    .card__item:first-child {
+        margin-left: 1rem;
+    }
+    .card__img:first-child {
+        & img {
+            width: 100%;
+            max-width:323px;
+            height: 290px;
+        }
+    }
+
+    // section main (main counter)
+    .main__counter {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+      .main__counter .counter_content:first-child {
+        margin-left: 2rem;
+      }  
+      .main__counter .counter_content:last-child {
+        margin-right: 2rem;
+      } 
+
+    //section design  
+    .design .design__iphone{
+        position: absolute;
+        width: 100%;
+        max-width: 200px;
+        top: 15.6rem;
+        left: 47.5rem;
+    } 
+    
+    //section service
+    .service_photo {
+        margin-left: 1rem;
+    }
+    .service_photo img {
+        width: 486px;
+        height: 409px;
+    }
+    .service__content{
+        .service__about {
+            margin-right: 1rem;
+        }
+        .service_photography {
+            padding: 1.08rem;
+    }
+        .service_creative {
+            padding: 1.08rem;
+    }
+        .service_web{
+            padding: 1.08rem;
+        }
+    }
+
+    //section meet
+    .meet__card {
+        margin-right: 1rem;
+    }
+    .card__container{
+        .card__img img {
+            height: 359px;
+        }
+    }
+
+    //section work
+    .work__item.small img {
+        max-width: 255px;
+        max-height: 256px;
+    }
+    .work__item.big img{
+        width: 255px;
+    }
+
+    //section work
+    .work__container {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .people__content {
+        margin-left: 1rem;
+    }
+
+    //section latest
+    .latest__item {
+        &:first-child{
+            margin-left: 1rem;
+        }
+        &:last-child{
+            margin-right: 1rem;
+        }
+    }
+    .latest__img img {
+        width: 316px;
+        height: 214px;
+    }
+    .latest_title, .latest__text {
+        max-width: 19.8rem;
+    }
+
+    //footer 
+    .global__content {
+        width: 100%;
+        max-width: 19.8rem;
+        margin: 0 1rem;
+        .global_text p{
+            font-size: 14px;
+            margin: 0.2rem 0;
+        }
+        .footer_input{
+            max-width: 13rem;
+        }
+        .footer_btn {
+            max-width: 7rem;
+        }
+    }
+    .global__item {
+        margin-bottom: 1.7rem;
+        .global__logo_blogs img {
+            width: 115px;
+            height: 71px;
+        }
+        .global__text_blogs {
+            padding-left: 1rem;
+        }
+    }
+    .global_link a{
+        color: $black;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    html {
+        width: 100%;
+        max-width: 769px;
+        box-sizing: border-box;
+    }
+
+    //global elements
+
+    .global_text {
+        margin-left: 1rem;
+    }
+
+    // header
+    .container {
+        width: 100%;
+        max-width: 769px;
+        margin: 0 auto;
+    }
+    .header__container {
+        width: 100%;
+        margin: 0 auto;
+        .header__logo img {
+            max-width: 14rem;
+        }
+    }
+    .header__title {
+        .title {
+            font-size: 6rem;
+        }
+    }
+    .header__about {
+        width: 100%;
+        margin-left: 2rem;
+        .about__content {
+            .about_intro {
+                max-width: 70%;
+                padding: 0;
+                }
+        }    
+    }
+
+
+    //section main
+    .main__counter {
+        width: 100%;
+        max-width: 769px;
+        .counter_content {
+            padding: 1rem 1rem;
+            &:first-child {
+                margin: 0;
+            }
+            &:last-child {
+                margin: 0;
+            }
+            .counter_title{
+                font-size: 50px;
+            } 
+        }
+    }
+
+    //section design
+    .design {
+        width: 100%;
+        max-width: 769px;
+        .design__ipad_border {
+            width: 100%;
+            max-width: 43.75rem;
+        }
+        .design__iphone {
+            position: absolute;
+            top: 15rem;
+            left: 35rem;
+        }
+    }
+
+    //section service
+    .service__content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .service__about {
+            margin-left: 1.5rem;
+            margin-top: 1rem;
+        }
+    }
+
+    // section meet
+    .card__container {
+        .card__img img {
+            height: 300px;
+        }
+    }
+
+    //section work
+
+    
+
+    
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    html {
+        width: 100%;
+        max-width: 475px;
+        box-sizing: border-box;
+    }
+    // header
+    .wrapper {
+        height: 600px;
+        margin: 0 auto;
+    }
+    .container {
+        .header__suptitle {
+            margin-top: .5rem;
+            margin-bottom: 3rem;
+            & .suptitle {
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 52px;
+            }
+        }
+    }
+    .header__nav_link {
+        display: none;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 79px;
+    }
+    .header__title {
+        height: 300px;
+        .hr_upbtn {
+            margin: 2rem auto;
+        }
+    }
+    .header__title .header_btn {
+        width: 100%;
+        max-width: 17.8rem;
+        height: 3.5rem;
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .header__about {
+        width: 100%;
+        max-width: 425px;
+        margin: 0 auto;
+        .about__content {
+            .about_intro {
+                max-width: 80%;
+                padding: 0;
+                & span {
+                    display: none;
+                }
+            }
+            
+        }
+    }
+
+    //section main
+    .global_text {
+        margin: 1rem .6rem;
+    }
+    .meet__card {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 768px;
+        .card__item {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 1rem;
+            margin: 1rem 0 0 3rem;
+            &:first-child {
+                margin-left: 3rem;
+            }
+            .card__img {
+                width: 100%;
+            }
+        }
+    }
+}    
+

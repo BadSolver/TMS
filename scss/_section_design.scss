@@ -13,7 +13,8 @@
         position: relative;
         bottom: 1.2rem;
         padding-bottom: 3rem;
-        width: 1170px;
+        width: 100%;
+        max-width: 1170px;
         height: 525px;
         z-index: 1;   
     }
@@ -24,8 +25,9 @@
         position: absolute;
         top: 15rem;
         left: 50rem;
-        width:200px;
         height: 412px;
+        width: 100%;
+        max-width: 200px;
     }
     
 }
