@@ -630,6 +630,13 @@
             max-width: 768px;
             background-repeat: repeat;
         } 
+        .people__content {
+            flex-direction: column;
+            margin-right: 2rem;
+            .people__item {
+                margin-bottom: 1rem;
+            }
+        }
     }
 
     //section latest blog

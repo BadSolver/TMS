@@ -4,7 +4,8 @@
     margin: 0 auto;
     text-align: center;
     background-image: url(../image/peoplebg1.png), url(../image/peoplebg2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat;
+    background-size: 150%;
     background-position: bottom center;
 }
 .people__container {

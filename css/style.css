@@ -862,7 +862,8 @@ h6 {
   text-align: center;
   background-image: url(../image/peoplebg1.png), url(../image/peoplebg2.png), -webkit-gradient(linear, left bottom, left top, from(rgba(237, 215, 137, 0.9)), to(rgba(233, 130, 131, 0.9)));
   background-image: url(../image/peoplebg1.png), url(../image/peoplebg2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-repeat: no-repeat;
+  background-size: 150%;
   background-position: bottom center;
 }
 
@@ -936,7 +937,7 @@ h6 {
   text-align: center;
 }
 
-.latest__container {
+.latest__wrapper .latest__container {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
@@ -944,7 +945,7 @@ h6 {
   margin-bottom: 4rem;
 }
 
-.latest__content {
+.latest__wrapper .latest__container .latest__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -965,7 +966,7 @@ h6 {
   text-align: left;
 }
 
-.latest_title {
+.latest__item .latest_title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -974,13 +975,13 @@ h6 {
   margin-top: 1rem;
 }
 
-.latest__text {
+.latest__item .latest__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 
-.latest_msg {
+.latest__item .latest_msg {
   background-image: url(../image/latestico1.png);
   background-repeat: no-repeat;
   background-position: left  center;
@@ -988,7 +989,7 @@ h6 {
   padding-bottom: 2px;
 }
 
-.latest_message {
+.latest__item .latest_message {
   background-image: url(../image/latestico2.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1005,11 +1006,11 @@ h6 {
   text-align: center;
 }
 
-.blog__content img {
+.blog__wrapper .blog__content img {
   margin-top: 3rem;
 }
 
-.blog_title {
+.blog__wrapper .blog_title {
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
@@ -1018,7 +1019,7 @@ h6 {
   margin-top: 2rem;
 }
 
-.blog_hr {
+.blog__wrapper .blog_hr {
   display: inline-block;
   width: 10.625rem;
   height: 3px;
@@ -1793,6 +1794,16 @@ h6 {
     width: 100%;
     max-width: 768px;
     background-repeat: repeat;
+  }
+  .people .people__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 2rem;
+  }
+  .people .people__content .people__item {
+    margin-bottom: 1rem;
   }
   .latest__container {
     width: 100%;
