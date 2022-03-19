@@ -661,7 +661,60 @@
              height: auto;
          }
      }
-        
+}
+
+     @media screen and (max-width:474px) {
+        html {
+            width: 100%;
+            max-width: 23.4375rem;
+            box-sizing: border-box;
+        }
+
+        // section header
+        .header__title {
+            .title {
+                font-size: 40px;
+            }
+        }
+        .about__content {
+            .about_intro {
+                width: 60px;
+                margin: 0 auto;
+            }
+        }
+
+
+        // section main
+        .main__counter{
+            .counter_content {
+                flex: 0 1 100%
+            }
+        }    
+        //Section design
+    .design{
+        width: 100%;
+        max-width: 23.43rem;
+        .design__ipad_border {
+            width: 100%;
+            max-width: 29.6875rem;
+            .design__iphone {
+                position: absolute;
+                width: 6rem;
+                height: 13rem;
+                top: 17.5rem;
+                left: 16.6rem;
+            }
+        }
+    } 
+    
+    //section service 
+
+    .service__content {
+        max-width: 29.6875rem;
+        .service_photo img {
+            width: 100%;
+        }
+    }
     
     
     
