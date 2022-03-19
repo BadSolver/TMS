@@ -1832,6 +1832,48 @@ h6 {
   }
 }
 
+@media screen and (max-width: 474px) {
+  html {
+    width: 100%;
+    max-width: 23.4375rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .header__title .title {
+    font-size: 40px;
+  }
+  .about__content .about_intro {
+    width: 60px;
+    margin: 0 auto;
+  }
+  .main__counter .counter_content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .design {
+    width: 100%;
+    max-width: 23.43rem;
+  }
+  .design .design__ipad_border {
+    width: 100%;
+    max-width: 29.6875rem;
+  }
+  .design .design__ipad_border .design__iphone {
+    position: absolute;
+    width: 6rem;
+    height: 13rem;
+    top: 17.5rem;
+    left: 16.6rem;
+  }
+  .service__content {
+    max-width: 29.6875rem;
+  }
+  .service__content .service_photo img {
+    width: 100%;
+  }
+}
+
 html {
   font-family: 'Raleway', sans-serif;
   -webkit-box-sizing: border-box;
