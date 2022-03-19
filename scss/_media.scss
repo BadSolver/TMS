@@ -23,6 +23,9 @@
             max-width: 13rem;
             .about_intro {
                 padding-right: 4rem;
+                & span:last-child {
+                    font-size:16px ;
+                }
             }
         }
     }
@@ -138,11 +141,11 @@
     }
 
     //footer 
-    .global__content {
+    .footer__content {
         width: 100%;
         max-width: 19.8rem;
         margin: 0 1rem;
-        .global_text p{
+        .footer_text p{
             font-size: 14px;
             margin: 0.2rem 0;
         }
@@ -153,17 +156,17 @@
             max-width: 7rem;
         }
     }
-    .global__item {
+    .footer__item {
         margin-bottom: 1.7rem;
-        .global__logo_blogs img {
+        .footer__logo_blogs img {
             width: 115px;
             height: 71px;
         }
-        .global__text_blogs {
+        .footer__text_blogs {
             padding-left: 1rem;
         }
     }
-    .global_link a{
+    .footer_link a{
         color: $black;
     }
 }
@@ -216,10 +219,9 @@
                 max-width: 100%;
                 padding: 0;
                 & span {
-                    font-size: 12px;
-                    margin: 0;
+                    font-size: 15px;
                 }
-                }
+            }
         }    
     }
 
@@ -245,15 +247,16 @@
     //section design
     .design {
         width: 100%;
-        max-width: 769px;
+        max-width: 1024px;
         .design__ipad_border {
             width: 100%;
             max-width: 43.75rem;
+            margin: 0 auto;
         }
         .design__iphone {
             position: absolute;
             top: 15rem;
-            left: 35rem;
+            left: 33rem;
         }
     }
 
@@ -307,19 +310,50 @@
 
 
     //section latest blog
-     .latest__content {
+    .latest__container {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto
+    }
+    .latest__content {
          width: 100%;
          max-width: 769px;
          flex-direction: column;
          align-items: center;
+         align-self: center;
+         margin: 2rem auto;
          .latest__item {
              margin-bottom: 2rem;
-            
+             flex: 1 1 100%;
+         }
+         .latest__item img {
+             width: 600px;
+             height: 400px;
          }
          .latest__item:first-child {
              margin-left: 0;
          }
      }
+
+     //footer
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        .footer__content_inst {
+            order: -2;
+        }
+        .footer__content_blo {
+            order: -3;
+        }
+        .footer__content {
+            margin-bottom: 2rem;
+        }
+    }
+    
+    
+    
+    
     
 }
 
