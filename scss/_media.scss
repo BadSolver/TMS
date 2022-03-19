@@ -99,20 +99,23 @@
     }
 
     //section work
-    .work__item.small img {
-        max-width: 255px;
-        max-height: 256px;
-    }
-    .work__item.big img{
-        width: 255px;
-    }
+    
 
     //section work
     .work__container {
         width: 100%;
         max-width: 1024px;
         margin: 0 auto;
+        .work__item.small img {
+            max-width: 255px;
+            max-height: 256px;
+        }
+        .work__item.big img{
+            width: 255px;
+        }
     }
+
+    //sectio npeople
     .people__content {
         margin-left: 1rem;
     }
@@ -178,6 +181,12 @@
     .global_text {
         margin-left: 1rem;
     }
+    .global_title {
+        margin-bottom: 1rem;
+    }
+    .global_suptitle {
+        margin-bottom: 0.8rem;
+    }
 
     // header
     .container {
@@ -199,11 +208,17 @@
     }
     .header__about {
         width: 100%;
-        margin-left: 2rem;
+        max-width: 768px;
+        justify-content: space-around;
         .about__content {
+            max-width: 7rem;
             .about_intro {
-                max-width: 70%;
+                max-width: 100%;
                 padding: 0;
+                & span {
+                    font-size: 12px;
+                    margin: 0;
+                }
                 }
         }    
     }
@@ -262,8 +277,49 @@
 
     //section work
 
-    
+    .work__container {
+        width: 100%;
+        max-width: 769px;
+        flex-wrap: wrap;
+        align-items: center;
+        align-self: center;
+        .work__item.small {
+            margin: 0;
+        }
+        .work__item.big {
+            margin: 0;
+        }
+    }
 
+    //section people
+    .people__container {
+        .people__content {
+            justify-content: space-evenly;
+            margin-top: 1rem;
+            .people__item {
+                margin-top: .5rem;
+                .people_text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+
+    //section latest blog
+     .latest__content {
+         width: 100%;
+         max-width: 769px;
+         flex-direction: column;
+         align-items: center;
+         .latest__item {
+             margin-bottom: 2rem;
+            
+         }
+         .latest__item:first-child {
+             margin-left: 0;
+         }
+     }
     
 }
 

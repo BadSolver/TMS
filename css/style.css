@@ -1270,17 +1270,17 @@ h6 {
   .card__container .card__img img {
     height: 359px;
   }
-  .work__item.small img {
-    max-width: 255px;
-    max-height: 256px;
-  }
-  .work__item.big img {
-    width: 255px;
-  }
   .work__container {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+  }
+  .work__container .work__item.small img {
+    max-width: 255px;
+    max-height: 256px;
+  }
+  .work__container .work__item.big img {
+    width: 255px;
   }
   .people__content {
     margin-left: 1rem;
@@ -1338,6 +1338,12 @@ h6 {
   .global_text {
     margin-left: 1rem;
   }
+  .global_title {
+    margin-bottom: 1rem;
+  }
+  .global_suptitle {
+    margin-bottom: 0.8rem;
+  }
   .container {
     width: 100%;
     max-width: 769px;
@@ -1355,11 +1361,20 @@ h6 {
   }
   .header__about {
     width: 100%;
-    margin-left: 2rem;
+    max-width: 768px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header__about .about__content {
+    max-width: 7rem;
   }
   .header__about .about__content .about_intro {
-    max-width: 70%;
+    max-width: 100%;
     padding: 0;
+  }
+  .header__about .about__content .about_intro span {
+    font-size: 12px;
+    margin: 0;
   }
   .main__counter {
     width: 100%;
@@ -1406,6 +1421,53 @@ h6 {
   }
   .card__container .card__img img {
     height: 300px;
+  }
+  .work__container {
+    width: 100%;
+    max-width: 769px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .work__container .work__item.small {
+    margin: 0;
+  }
+  .work__container .work__item.big {
+    margin: 0;
+  }
+  .people__container .people__content {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+  .people__container .people__content .people__item {
+    margin-top: .5rem;
+  }
+  .people__container .people__content .people__item .people_text {
+    font-size: 15px;
+  }
+  .latest__content {
+    width: 100%;
+    max-width: 769px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .latest__content .latest__item {
+    margin-bottom: 2rem;
+  }
+  .latest__content .latest__item:first-child {
+    margin-left: 0;
   }
 }
 
