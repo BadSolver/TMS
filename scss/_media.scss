@@ -364,24 +364,21 @@
     //section latest blog
     .latest__container {
         width: 100%;
-        max-width: 1024px;
+        max-width: 769px;
         margin: 0 auto
     }
     .latest__content {
          width: 100%;
          max-width: 769px;
-         flex-direction: column;
+         flex-wrap: wrap;
          margin: 2rem auto;
          .latest__item {
-             margin-bottom: 2rem;
+             margin: 0 1rem 2rem 2rem;
              flex: 1 1 100%;
          }
          .latest__item img {
-             width: 600px;
-             height: 400px;
-         }
-         .latest__item:first-child {
-             margin-left: 0;
+             width: 100%;
+             height: auto;
          }
      }
 
@@ -637,13 +634,26 @@
 
     //section latest blog
 
-    .latest__content {
-        .latest__item {
-            .latest__img img {
-                max-width: 450px;
-            }
-        }
+    .latest__container {
+        width: 100%;
+        max-width: 769px;
+        margin: 0 auto
     }
+    .latest__content {
+         width: 100%;
+         max-width: 769px;
+         flex-wrap: wrap;
+         justify-content: center;
+         margin: 2rem auto;
+         .latest__item {
+             margin: 0 1rem 2rem 2rem;
+             flex: 1 1 100%;
+         }
+         .latest__item img {
+             width: 100%;
+             height: auto;
+         }
+     }
         
     
     
