@@ -14,24 +14,25 @@
     color: $black;
     .meet__card {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 5rem;
+        margin: 5rem 0 0;
+        .card__item {
+            margin-bottom: 1rem;
+        }
         .card__container {
             position: relative;
             background-color: #95e1d3;
-        }
-        .card__item {
-            position: relative;
-            width: 33.3333333%;
+            width: 30.3333333%;
             padding: 0 1rem;
             &:hover .card__img {
                 transform: translate3d(-10px, -10px, 0);
             }
         }
-        .card__item:hover .card__img img {
+        .card__container:hover .card__img img {
             opacity: .1;
         }
-        .card__item:hover .card__text {
+        .card__container:hover .card__text {
             opacity: .9;
         }
         .card__img {
