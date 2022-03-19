@@ -3,15 +3,16 @@
     max-width: 1510px;
     margin: 0 auto;
     background-color:$whiteF8 ;
-    .global__container {
+    .footer__container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 }
-.global__content {
+.footer__content {
     text-align: left;
     max-width: 23rem;
-    .global_followers {
+    .footer_followers {
         color: $black;
         margin-bottom: 1rem;
         border-bottom: 1px solid $gray;
@@ -32,7 +33,7 @@
             text-transform: uppercase;
         }
     }
-    .global_socials {
+    .footer_socials {
         display: flex;
         justify-content: space-between;
         font-weight: 400;
@@ -67,7 +68,7 @@
         line-height: 21px;
     }
 }
-.global__item {
+.footer__item {
     display: flex;
     margin-bottom: 1rem;
     text-align: left;
@@ -75,7 +76,7 @@
         display: flex;
     }
 }
-.global_title.foot {
+.footer_title.foot {
     text-align: left;
     margin-top: 2rem;
     font-weight: 700;
@@ -83,7 +84,7 @@
     line-height: 28px;
     text-transform: uppercase;
 }
-.global__text_blogs {
+.footer__text_blogs {
     padding-left: 2rem;
     & h5 {
         font-weight: 700;
@@ -96,12 +97,12 @@
         margin: .5rem 0 0 0;
     }
 }
-.global__item.inst {
+.footer__item.inst {
     display: flex;
     flex-wrap: wrap;
     max-width: 16.875rem;
 }
-.global_link {
+.footer_link {
     text-align: left;
     font-weight: 400;
     font-size: 13px;

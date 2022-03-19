@@ -7,17 +7,61 @@
 .main__container {
     position: relative;
     width: 100%;
-    max-width:1186px;
+    max-width:1170px;
     margin: 0 auto;
     text-align: center;
     margin-top:2.5em; 
     color: $black;
-}
-.main_img {
-    margin: 0 1.5em;
-}
-.main__content {
-    margin-bottom: 7rem;
+    .meet__card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 5rem 0 0;
+        .card__item {
+            margin-bottom: 1rem;
+        }
+        .card__container {
+            position: relative;
+            background-color: #95e1d3;
+            width: 30.3333333%;
+            padding: 0 1rem;
+            &:hover .card__img {
+                transform: translate3d(-10px, -10px, 0);
+            }
+        }
+        .card__container:hover .card__img img {
+            opacity: .1;
+        }
+        .card__container:hover .card__text {
+            opacity: .9;
+        }
+        .card__img {
+            background: linear-gradient(to bottom, #f38181, #fce38a);
+            transition: transform .2s linear;
+        }
+        .card__img img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            transition: opacity .1s linear;
+        }
+        .card__text {
+            width: 100%;
+            font-size: 18px;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            z-index: 2;
+            transform: translate3d(0, -50%, 0);
+            transition: opacity .6s linear;
+        }
+    }
+
 }
 .main__counter {
     display: flex;

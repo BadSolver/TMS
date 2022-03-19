@@ -1,6 +1,6 @@
 .meet__wrapper {
     width: 100%;
-    max-width:1187px;
+    max-width:1170px;
     margin: 0 auto;
     text-align: center;
     .meet_name {
@@ -24,15 +24,15 @@
 }
 .meet__card {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 5rem;
+    margin: 5rem 0 0;
     .card__container {
         position: relative;
         background-color: #95e1d3;
     }
     .card__item {
-        position: relative;
-        width: 31.2%;
+        margin-bottom: 1rem;
         &:hover .card__img {
             transform: translate3d(-10px, -10px, 0);
         }
