@@ -416,9 +416,31 @@
     }
     // header
     .wrapper {
+        background-image: url(../image/img1.png), url(../image/img2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center ;
         width: 100%;
         height: 600px;
         max-width: 768px;
+        
+    }
+    .container {
+        height: 600px;
+        .header__container.fixed {
+            background-color: #e3978a;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 100;
+            height: 30px;
+            padding-bottom: .5rem;
+            padding-right: 3rem;
+            width: 100%;
+            max-width: 768px;
+        }
+        .header__container.fixed .header__logo img {
+            margin-left: 6rem;
+        }
     }
     .header__title {
         height: auto;
@@ -435,8 +457,37 @@
         font-weight: 400;
         line-height: 52px;
     } 
-    .header__nav_link {
-        display: none;
+    .container{
+        .header__container {
+            .header_nav.active {
+                display: block;
+        }
+            }
+    }
+    .container{
+        .header__container {
+            .header_nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                width: 100%;
+                top: 11%;
+                left: 0;
+                background-color:#e3978a ;
+            }.navlink{
+                display: block;
+                margin: 0;
+                font-size: 18px;
+                padding: 1.7rem 0 .7rem 4rem;
+            }
+            .navimg{
+                display: block;
+                padding-left: 3.3rem;
+            }
+        }
+    }    
+    .nav_burger {
+        display: block;
     }
     .hr_upbtn {
         margin: 2rem auto;
@@ -706,6 +757,21 @@
             }
         }
     } 
+
+    //section dialog
+    .dialog__container{
+        .dialog_text {
+            font-size: 20px;
+        }
+        .dialog_author {
+            font-size: 22px;
+            &::before {
+                content: '';
+                margin-right: 1rem;
+            }
+        }
+    }
+    
     
     //section service 
 
@@ -714,6 +780,26 @@
         .service_photo img {
             width: 100%;
         }
+    }
+
+    //section icons
+    .icons__container {
+        align-items: center;
+    }
+    .icons__container img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1rem;
+    }
+    .icons__container img:first-child {
+        flex: 0 1 33%;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .icons__container img:nth-child(4) {
+        flex: 0 1 33%;
+        margin-right: .5rem;
+        margin-left: .5rem;
     }
     
     
@@ -738,24 +824,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-  
-
