@@ -13,22 +13,26 @@
 
 
     <header class="wrapper">
-        <div class="container">
-            <div class="header__container">
+        <div class="container" id="headerh">
+            <div class="header__container fixed " id="header">
                 <div class="header__logo">
                     <img src="./image/logo.png" alt="logo">
                 </div>
+                <button class="nav_burger " id="nav-burger" type="button">
+                    <span class="nav_burger__item">menu</span>
+                </button>
                 <div class="header__nav_link">
-                    <nav class="header_nav">
-                        <a href="#" class="navlink about">About</a>
-                        <a href="#" class="navlink service">Service</a>
-                        <a href="#" class="navlink service">work</a>
-                        <a href="#" class="navlink service">Blog</a>
-                        <a href="#" class="navlink service">Contact</a>
+                    <nav class="header_nav" id="menu">
+                        <a href="#about" class="navlink about">About</a>
+                        <a href="#service" class="navlink service">Service</a>
+                        <a href="#work" class="navlink service">work</a>
+                        <a href="#blog" class="navlink service">Blog</a>
+                        <a href="#contact" class="navlink service">Contact</a>
                         <a href="#" class="navimg basket"> <img src="./image/basket.png" alt="basket"></a>
                         <a href="#" class="navimg find"> <img src="./image/find.png" alt="find"></a>
                     </nav>
                 </div>
+                
             </div>
             <div class="header__suptitle">
                 <h2 class="suptitle">Creative Template</h2>
@@ -69,7 +73,7 @@
     <main class="global__wrapper">
             <div class="main__container">
                 <div class="main__title">
-                    <h2 class="global_suptitle">What we Do</h2>
+                    <h2 class="global_suptitle" id="about">What we Do</h2>
                     <h4 class="global_title">Story about us</h4>
                     <div class="global_hr"></div>
                     <p class="global_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</p>
@@ -128,7 +132,7 @@
         <section class="global__wrapper">
             <div class="global__container">
                 <div class="amazing__title">
-                    <h2 class="global_suptitle">We work with</h2>
+                    <h2 class="global_suptitle" id="service">We work with</h2>
                     <h3 class="global_title">Amazing Services</h3>
                     <div class="global_hr"></div>
                 </div>
@@ -370,7 +374,7 @@
         <section class="work">
             <div class="global__wrapper">
                 <div class="work__title">
-                    <h2 class="global_suptitle">What we do</h2>
+                    <h2 class="global_suptitle" id="work">What we do</h2>
                     <h3 class="global_title">Some of our work</h3>
                     <div class="global_hr"></div>
                     <p class="global_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</p>
@@ -533,7 +537,7 @@
         </section>
 
         <section class="blog">
-            <div class="blog__wrapper">
+            <div class="blog__wrapper" id="blog">
                 <div class="blog__content">
                     <img src="./image/blogico.png" alt="ico">
                     <h3 class="blog_title">Latest Blog</h3>
@@ -546,7 +550,7 @@
         <footer class="footer">
             <div class="footer__wrapper">
                 <div class="footer__container">
-                    <div class="footer__content">
+                    <div class="footer__content" id="contact">
                         <div class="footer_img">
                             <img src="./image/globallogo.png" alt="global">
                         </div>
@@ -629,6 +633,8 @@
             </div>
         </footer>
     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="module" src="./index.js"></script>
 </body>
 </html>
