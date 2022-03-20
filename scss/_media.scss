@@ -473,7 +473,9 @@
                 width: 100%;
                 top: 11%;
                 left: 0;
-                background-color:#e3978a ;
+                background-image: url(../image/img1.png), url(../image/img2.png), linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+                background-repeat: no-repeat, no-repeat, no-repeat;
+                background-position: center;
             }.navlink{
                 display: block;
                 margin: 0;
