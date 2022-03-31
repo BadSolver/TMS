@@ -259,7 +259,8 @@ h3 {
 }
 .about__spray p {
     font-size: 14px;
-    line-height: 28px;  
+    line-height: 28px; 
+    padding-bottom: 12.5rem; 
 }
 .about__spray h2 {
     font-size: 30px;
@@ -308,6 +309,12 @@ h3 {
 }
 .footer__content.social {
     margin-right: 18rem;
+}
+.footer__content a {
+    color: #FFFEF2;
+}
+.footer__content a:hover {
+    color: #daa520;
 }
 .footer__content.social a {
     color: #FFFEF2;
