@@ -4,266 +4,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/TMS/image/favicon.ico" type="image/x-icon">
-    <title>AXIT</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-   <header class="head">
-       <div class="wrapper_head">
-           <div class="container">
-               <div class="header__logo">
-                   <img src="./image/logo1.png" alt="logo">
-               </div>
-               <div class="header__nav">
-                   <nav class="navigation__link">
-                       <div class="features"><a  href="#">Features</a></div>
-                       <div  class="features"><a href="#">About</a></div>
-                       <div  class="features"><a href="#">Pricing</a></div> 
-                       <div  class="features"><a href="#">Reviews</a></div> 
-                       <div  class="features"><a href="#">Contact</a></div>
-                   </nav>
-               </div>
-           </div>
-       </div>
-   </header>
-  <main class="banner">
-        <div class="wrapper">
-            <div class="container__banner">
-                <div class="banner__content">
-                    <div class="banner__logo">
-                        <img src="./image/logo.png" alt="logoAXIT" class="logo_ban">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <img src="./img/logo.png" alt="logo">
                     </div>
-                    <h1 class="banner__title">
-                        MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES 
-                    </h1>
-                    <div class="banner__hr">
-                        <hr>
+                    <div class="header__nav">
+                        <ul>
+                            <li><a href="#">Einkaufen</a></li>
+                            <li><a href="#">Lesen</a></li>
+                            <li><a href="#">Standorte</a></li>
+                            <li><a href="#">Suchen</a></li>
+                        </ul>
                     </div>
-                    <div class="banner__about">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="header__basket">
+                        <ul>
+                            <li><a href="">Anmelden</a></li>
+                            <li><a href="">Warenkorb</a></li>
+                        </ul>
                     </div>
-                    <div class="banner__btn">
-                        <button class="btn_ban">Download</button>
+                </div>
+                <div class="header__about">
+                    <h1>Gebändigt und geformt: Formulierungen mit Funktion</h1>
+                    <p>Mit Tame Hair Serum und Sculpt Hair Polish stellen wir zwei neue Formulierungen vor, die dabei behilflich sind, die Haare in Szene zu setzen, und gleichzeitig die Haarwurzeln sorgsam einbeziehen.</p>
+                </div>
+            </div>
+        </header>
+        <section class="menu">
+            <div class="menu__container">
+                <div class="menu__content">
+                    <div class="menu__logo">
+                        <img src="./img/menu1.png" alt="menu1">
+                    </div>
+                    <div class="menu__card">
+                        <img src="./img/menu2.png" alt="menu2">
+                        <div class="menu__card_content">
+                            <h2>Sculpt Hair Polish</h2>
+                            <p>Ein Gel, das Präzision und Geschmeidigkeit vereint</p>
+                            <p class="menu__card_txt_last">Das Sculpt Hair Polish ist ein Styling-Gel mit einzigartigem Halt. Fest und doch flexibel, das Resultat ist stets eine sorgfältig komponierte Frisur – ob kurz oder lang, akribisch oder betont lässig.</p>
+                            <button class="menu_first_btn">Zum Warenkorb hinzufügen — 27,00 €</button> <br>
+                            <button class="menu_second_btn">Sculpt Hair Polish entdecken</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="banner__form">
-                <div class="form__title">
-                    <h2 class="trial_">Try Your <span class="red_free">FREE</span>  Trial Today</h2>
+        </section>
+        <section class="bottle">
+            <div class="bottle__container">
+                <div class="bottle__content">
+                    <img src="./img/bottle1.png" alt="bottle1">
+                    <p>Rose Hair & Scalp Moisturising Masque <br>
+                        Hält Kopfhaut und Haar in bestem Zustand</p>
                 </div>
-                <div class="form__input">
-                    <form action="#">
-                        <input class="input_ban" type="text" name="names" placeholder="Name"> <br>
-                        <input class="input_ban" type="email" name="mail" placeholder="Email"> <br>
-                        <input class="input_ban" type="password" name="pass" placeholder="Password">
-                    </form>
+                <div class="bottle__content">
+                    <img src="./img/bottle2.png" alt="bottle2">
+                    <p>Classic Shampoo <br>
+                        Eine milde, aber dennoch effektive Reinigung</p>
                 </div>
-                <div class="form__btn">
-                    <button class="get_started">
-                        Get Started
-                    </button>
-                </div>
-            </div>
-        </div>      
-  </main>
-  <section class="social">
-      <div class="wrapper__social">
-          <div class="container__social">
-              <h2 class="social__title">Social Media</h2>
-              <p class="social__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean euismod bibendum laoreet.</p>
-          </div>
-          <div class="social__image">
-              <a class="social_img" href="https://www.facebook.com/"><img src="./image/facebookicon.png" alt="facebook"></a>
-              <a class="social_img" href="https://twitter.com/?lang=ru"><img src="./image/twittericon.png" alt="twitter"></a>
-              <a class="social_img" href="https://ru.linkedin.com/"><img src="./image/linkedinicon.png" alt="linkedin"></a>
-              <a class="social_img" href="https://www.pinterest.com/"><img src="./image/pinteresticon.png" alt="pinterest"></a>
-              <a class="social_img" href="https://www.instagram.com/"><img src="./image/instagramicon.png" alt="insta"></a>
-              <a class="social_img" href="https://github.com/BadSolver"><img src="./image/githubicon.png" alt="github"></a>
-              <a class="social_img" href="#"><img src="./image/rssicon.png" alt="rss"></a>
-          </div>
-      </div>
-  </section> 
-  <section class="tabs">
-      <div class="wrapper__tabs">
-          <div class="container__tabs">
-            <div class="tabs-block-wrapper">
-                <div id="tabs">
-                    <div class="tab-btn active" data-btn="1">TAB 1</div>
-                    <div class="tab-btn sec" data-btn="2">TAB 2</div>
-                    <div class="tab-btn thr" data-btn="3">TAB 3</div>
-                </div>
-                <div id="contents">
-                    <h3 class="tabs__title" data-content="1">Tabs with soft transitioning effect.</h3>
-                    <div class="tabs__content" data-content="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                        penatibus et magnis dis parturient montes.
-                        
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                        bibendum laoreet.</div>
-                    <div class="content" data-content="3">
-                        <button class="tabs_btn"> Download</button>
-                    </div>
+                <div class="bottle__content">
+                    <img src="./img/bottle3.png" alt="bottle3">
+                    <p>Classic Conditioner<br>
+                        Eine leichte, nährstoffreiche Pflege</p>
                 </div>
             </div>
-              <div class="image_tabs">
-                  <img src="./image/Rectangle.png" alt="stat">
-              </div>
-          </div>
-      </div>
-  </section>
-  <section class="awesome">
-      <div class="awesome__wrapper">
-        <div class="awesome__container">
-            <h2 class="awesome__title">WHY THIS IS AWESOME</h2>
-            <hr class="aws_hr">
-            <p class="aws_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="aws__container">
-                    <div class="awesome__content first">
-                        <div class="aws__logo">
-                            <img src="./image/abouticon1.png" alt="icon1">
-                        </div>
-                        <h2 class="aws__title">Thoughtful Design</h2>
-                        <p class="aws__about">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+            <div class="horizontal_hr"></div>
+        </section>
+        <section class="spray">
+            <div class="spray__container">
+                <div class="spray__content">
+                    <div class="spray__card">
+                        <p>Vitamin C für Tag und Nacht</p>
+                        <h2>Um die Struktur der Haut zu unterstützen</h2>
+                        <p>Vitamin C ist essentiell, um die Widerstandsfähigkeit der Haut zu erhöhen. Der effektive Inhaltsstoff kann sowohl morgens als auch abends angewendet werden und bietet bei langfristiger, regelmäßiger Anwendung enorme Vorteile für die Haut.</p>
+                        <button class="spray_btn">Erfahren Sie mehr über Vitamin C</button>
                     </div>
-                    <div class="awesome__content second">
-                        <div class="aws__logo">
-                            <img src="./image/abouticon2.png" alt="icon2">
-                        </div>
-                        <h2 class="aws__title">Thoughtful Design</h2>
-                        <p class="aws__about">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                    <div class="spray__img">
+                        <img src="./img/spray1.png" alt="spray1">
                     </div>
-                    <div class="awesome__content third">
-                        <div class="aws__logo">
-                            <img src="./image/abouticon3.png" alt="icon3">
-                        </div>
-                        <h2 class="aws__title">Thoughtful Design</h2>
-                        <p class="aws__about">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-                    </div>
-                </div>    
-        </div>
-      </div>
-  </section>
-  <section class="pricing">
-      <div class="wrapper__price">
-            <h2 class="price_title_about">Pricing Options</h2>
-            <hr class="price_hr">
-            <p class="price_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="price__container">    
-                    <div class="price__content">
-                        <p class="price__title">Basic <hr class="hr_price_white"></p>
-                        <h3 class="price__sum">$10 <hr class="hr_price_white act"></h3>
-                        <p class="price__free">Free for life </p>
-                        <div class="price__about">1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space </div>
-                    </div>
-                    <div class="price__content top">
-                        <p class="price__title">Optima <hr class="hr_price_white"></p>
-                        <h3 class="price__sum">$20 <hr class="hr_price_white act"></h3>
-                        <p class="price__free">Free for life </p>
-                        <div class="price__about">1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space </div>
-                    </div>
-                    <div class="price__content">
-                        <p class="price__title">Pro <hr class="hr_price_white"></p>
-                        <h3 class="price__sum ">$30 <hr class="hr_price_white act"></h3>
-                        <p class="price__free">Free for life </p>
-                        <div class="price__about">1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space <hr>1 GB of space </div>
-                    </div>
-          </div>
-      </div>
-  </section>
-  <section class="customers">
-      <div class="wrapper__price act">
-          <h2 class="customer_title">what our customers are saying</h2>
-          <hr class="price_hr">
-          <p class="customer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="customer__container">
-                <div class="customer__content">
-                        <div class="customer_info">Lorem ipsum dolor sit amet, 
-                            consectetur adipisicing elit. Doloribus 
-                            accusamus expedita repellat similique 
-                            odio aspernatur ex, architecto eaque 
-                            quo suscipit.</div>
-                        <div class="customer_info act">Lorem ipsum dolor sit amet, 
-                            consectetur adipisicing elit. Doloribus 
-                            accusamus expedita repellat similique 
-                            odio aspernatur ex, architecto eaque 
-                            quo suscipit.</div>
-                        <div class="customer_info">Lorem ipsum dolor sit amet, 
-                            consectetur adipisicing elit. Doloribus 
-                            accusamus expedita repellat similique 
-                            odio aspernatur ex, architecto eaque 
-                            quo suscipit.</div>    
                 </div>
-                <div class="customer__about">
-                    <div class="customer__ava">
-                        <img src="./image/Ellipse7.png" alt="ava">
+                <div class="bottle__container">
+                    <div class="bottle__content">
+                        <img src="./img/bottle4.png" alt="bottle4">
+                        <p>Sublime Replenishing Night Masque <br>
+                            Eine Gel-Creme reich an den Vitaminen B, C, E und F</p>
                     </div>
-                        <div class="customer__contents">
-                            <div class="customer_name">Davis Rhiel Madsen</div>
-                            <div class="customer__prof">Manager</div>
-                        </div>
-                        <div class="customer__ava act">
-                            <img src="./image/Ellipse8.png" alt="ava">
-                        </div>
-                            <div class="customer__contents">
-                                <div class="customer_name">Jaydon Rosser</div>
-                                <div class="customer__prof">Manager</div>
-                            </div>
-                    <div class="customer__ava act">
-                        <img src="./image/Ellipse9.png" alt="ava">
+                    <div class="bottle__content">
+                        <img src="./img/bottle5.png" alt="bottle5">
+                        <p>Lucent Facial Concentrate <br>
+                            Ein schützendes Serum reich an Vitamin C</p>
                     </div>
-                        <div class="customer__contents">
-                            <div class="customer_name">Cooper Dorwart</div>
-                            <div class="customer__prof">Manager</div>
-                        </div>
+                    <div class="bottle__content">
+                        <img src="./img/bottle6.png" alt="bottle6">
+                        <p>Damascan Rose Facial Treatment<br>
+                            Eine Mischung aus vitaminreichen, pflanzlichen Extrakten</p>
+                    </div>
+                </div>
+                <div class="horizontal_hr"></div>
+                <div class="spray__content">
+                    <div class="spray__card">
+                        <h2>Wir heißen Sie online willkommen</h2>
+                        <p>Genau wie in unsere Geschäften, in denen wir unsere Kunden persönlich begrüßen dürfen, möchten wir dies auch in unserem Online-Store tun. Es ist uns eine Freude, Ihnen virtuelle Unterstützung durch unsere Consultants und passende Lieferoptionen anzubieten.</p>
+                        <button class="spray_btn active">Hilfe</button>
+                    </div>
+                    <div class="spray__img">
+                        <img src="./img/bottle7.png" alt="bottle7">
+                    </div>
+                </div>
+                <div class="about__spray">
+                    <h2>‘As for me, I am tormented with an everlasting itch for things remote.’</h2>
+                    <p>Herman Melville</p>
                 </div>
             </div>
-          </div>
-  </section>
-  <section class="city">
-      <div class="wrapper__city">
-            <div class="city__container">
-                <h2 class="city_title">STYLISH AXURE DESIGN</h2>
-                <hr class="city_hr">
-                <p class="city_about">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-                <button class="city_btn">Download</button>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__content active">
+                    <input type="email" name="#" id="#" class="footer_input" placeholder="E-Mail-Adresse">
+                    <p>Melden Sie sich hier an, um regelmäßig von Aesop zu hören.</p>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer_h">Ihre Bestellung</h3>
+                    <p class="arrow">Hilfe</p>
+                    <p class="arrow">Häufig gestellte Fragen</p>
+                    <p class="arrow">Versand und Rückgaben</p>
+                    <p class="arrow">Sendungsverfolgung</p>
+                    <p>Guthaben der Gutscheinkarte</p>
+                    <p>Impressum</p>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer_h">Services</h3>
+                    <p>Firmengeschenkservice</p>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer_h">Einstellungen</h3>
+                    <p>Lieferung nach: Deutschland</p>
+                    <p>Sprache: Deutsch</p>
+                </div>
             </div>
-        </div>    
-  </section>
-  <section class="contact">
-      <div class="wrapper__contact">
-        <h2 class="awesome__title">contact us</h2>
-        <hr class="aws_hr">
-        <p class="aws_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <form action="#">
-            <input class="input_ban act" type="text" name="names" placeholder="Name"> <br>
-            <input class="input_ban act" type="email" name="mail" placeholder="Email"> <br>
-            <input class="input_ban act" type="password" name="pass" placeholder="Password">
-            <input class="input_ban act_one" type="text" name="txt" placeholder="Message">
-        </form>
-      </div>
-  </section>
-  <footer class="foot_link">
-      <div class="wrapper__footer">
-          <div class="link__footer">
-            <a class="social_img act" href="https://www.facebook.com/"><img src="./image/facebookicon.png" alt="facebook"></a>
-            <a class="social_img act" href="https://twitter.com/?lang=ru"><img src="./image/twittericon.png" alt="twitter"></a>
-            <a class="social_img act" href="https://ru.linkedin.com/"><img src="./image/linkedinicon.png" alt="linkedin"></a>
-            <a class="social_img act" href="https://www.pinterest.com/"><img src="./image/pinteresticon.png" alt="pinterest"></a>
-            <a class="social_img act" href="https://www.instagram.com/"><img src="./image/instagramicon.png" alt="insta"></a>
-            <a class="social_img act" href="https://github.com/BadSolver"><img src="./image/githubicon.png" alt="github"></a>
-            <a class="social_img act" href="#"><img src="./image/rssicon.png" alt="rss"></a>
-          </div>
-          <p class="foot_text">© 2015 Axure Themes</p>
-      </div>
-  </footer>
+            <div class="footer__container">
+                <div class="footer__content active">
+                    <h3 class="footer_h">Nachhaltigkeit</h3>
+                    <p>Alle Produkte von Aesop sind vegan und weder unsere Inhaltsstoffe noch unsere Produkte werden an Tieren getestet. Unser Unternehmen ist mit dem Leaping Bunny Siegel ausgezeichnet und B-Corp zertifiziert.</p>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer_h">Über</h3>
+                    <p>Über Aesop</p>
+                    <p>Foundation</p>
+                    <p>Karriere</p>
+                    <p>Datenschutzrichtlinie</p>
+                    <p>Zugänglichkeit</p>
+                </div>
+                <div class="footer__content social">
+                    <h3 class="footer_h">Social Media</h3>
+                    <p><a href="#">Instagram</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">LinkedIn</a></p>
+                </div>
+            </div>
+            <div class="horizontal_hr"></div>
+            <p class="foot_txt">© Aesop</p>
+        </footer>
+    </div>
 </body>
 </html>
