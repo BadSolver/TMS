@@ -110,4 +110,22 @@
 // console.log(JSON.stringify(student1) === JSON.stringify(student2))
 
 
+// Task 3 Al
+
+// const animals = {
+//     cat: {
+       
+//        age: 3,
+//     },
+//     dog: {
+//        name: 'Орео',
+//        age: 2,
+//     }
+//  }
+//  for (key in animals) {
+    
+//  }
+//  console.log(animals[key]?.name)
+
+ 
 
