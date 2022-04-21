@@ -53,10 +53,13 @@
 //     alexandra: 199
 // }
 // let sum = 0;
+// let people = 0
 // for (values in salaries) {
 //     sum += salaries[values]
+//     people += 1
 // }
-// console.log(sum)
+// const averageSum = sum / people
+// console.log(averageSum)
 
 // Task 6
 
@@ -74,7 +77,23 @@
 
 // Task 1 AL
 
-
+// const countingWords = (check) => {
+//     const values = {
+//         1: 'Один',
+//         2: 'Два',
+//         3: 'Три',
+//         4: 'Четыре',
+//         5: 'Пять',
+//         6: 'Шесть',
+//         7: 'Семь',
+//         8: 'Восемь',
+//         9: 'Девять'
+//     }
+//     check = check.split(':')
+//     return `${values[check[0]]} : ${values[check[1]]}`
+    
+// }
+// console.log(countingWords('5:1'))
 
 
 // Task 2 Al
@@ -89,4 +108,6 @@
 //     age: 27,
 // }
 // console.log(JSON.stringify(student1) === JSON.stringify(student2))
+
+
 
