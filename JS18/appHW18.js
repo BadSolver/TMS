@@ -106,3 +106,11 @@
 
 // console.log(numbers)
 // console.log(newNumber)
+
+
+const arr = [1, 3, 5, 6, 8]
+const newArr = []
+for (key of arr) {
+    newArr.push(key * 2)
+}
+console.log(newArr)
